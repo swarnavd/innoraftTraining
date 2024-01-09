@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	overflow:hidden;
+	}
+
+#container{
+	width:100%;
+	
+	}
+
+#header{
+	height: 120px;
+    background-color: #ff4da6;
+    margin-bottom: 15px 
+}
+.mid{
+	width:100%;
+}
+#lside{
+	width: 70%;
+    height: 450px;
+    background-color: #ff037e;
+    margin-right: 15px;
+    float: left;
+	
+	}
+#rside{
+	width: calc(30% - 15px);
+    height: 450px;
+    background-color: #ce0468;
+    float: left;
+	}
+
+
+#footer{
+    background-color: #802755;
+    height: 120px;
+    margin-top: 15px;
+}
