@@ -7,7 +7,7 @@ body{
 	}
 .container{
 	position: absolute;
-	margin-top:5%;
+	margin-top:60px;
     border: solid black;
     border-radius: 20px;
     background-color: #42515a;
