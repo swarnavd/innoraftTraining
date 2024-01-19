@@ -1,0 +1,32 @@
+*{
+    margin:0 auto;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px solid black;
+    margin:20px;
+    
+}
+.box1{
+    background-color: #e5eecc;
+    border-bottom: 2px solid black;
+}
+.click{
+    text-align: center;
+    font-size: 20px;
+   
+}
+.box2{
+    height:200px;
+    text-align: center;
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    
+}
+.show{
+    margin: 0 auto;
+    color:#5289ce;
+    font-size: 32px;
+}

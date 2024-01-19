@@ -1,13 +1,16 @@
 @charset "utf-8";
 /* CSS Document */
+
 *{
 	margin:0;
 	padding:0;
 	box-sizing:border-box;
+	font-family: roboto,sans-serif;
 	}
 
 .binding{
-	width:1200px;
+	max-width:1200px;
+	width:100%;
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
@@ -16,17 +19,20 @@ nav{
 	background-color:#d9d9d9;
 	display:flex;
 	justify-content:center;
+	padding: 15px;
 	}
 
 	
   li{
 	list-style-type:none;
-	float:left;
-	display:inline-block;
+	/* float:left; */
+	/* display:inline-block; */
+	/* padding: 15px; */
 	}
 nav ul{
 	display:flex;
 	gap:30px;
+	
 	color:#1a5c92;
 	align-items:center;
 	font-size:18px;
@@ -107,8 +113,8 @@ input{
 	
 	opacity:0.4;
 }
- li:hover{
-	padding:10px;
+ nav li:hover{
+	cursor: pointer;
 	background-color:black;
 	color:white;
 	}
@@ -124,4 +130,19 @@ input{
 button{
 	width:100px;
 	}
+footer a{
+	text-decoration: none;
+	color: white;
+}
 
+
+/* <!-- <div class="grid">
+<div class="imgg1"><img src="./12-min.jpg" class="image"></div>
+<div class="imgg2"><img src="./2-min.jpg" class="image"></div>
+<div class="imgg3"><img src="./2-min.jpg" class="image"></div>
+<div class="imgg4"><img src="./12-min.jpg" class="image"></div>
+<div class="imgg5"><img src="./2-min.jpg" class="image"></div>
+<div class="imgg6"><img src="./2-min.jpg" class="image"></div>
+<div class="imgg7"><img src="./2-min.jpg" class="image"></div>
+<div class="imgg8"></div>
+</div> --> */

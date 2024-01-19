@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style4.css">
+</head>
+<body>
+    <header onclick="change()">
+        <h2 class="text">Header</h2>
+    </header>
+    <div id="mid">
+        <div id="sidebar">
+            <h2 class="side" onclick="change1()">Sidebar</h2>
+        </div>
+        <div class="rightside">
+            <div id="main">
+                <h2 class="text">Main Content</h2>
+            </div>
+            <div id="extra">
+                <h2 class="text">Extra content</h2>
+            </div>
+        </div>
+        
+    
+    </div>
+    
+    <footer>
+    <h2 class="text">Footer</h2>
+    </footer>
+    <script>
+        let header=document.querySelector("header");
+        let side=document.querySelector(".side");
+        function change(){
+            header.style.backgroundColor="pink";
+        }
+        function change1(){
+            side.innerText="left bar";
+        }
+    </script>
+</body>
+</html>
