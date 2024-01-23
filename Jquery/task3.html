@@ -3,30 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>task5</title>
 </head>
 <body>
-    <form name="myform" method="post" onSubmit="return func()">
+    <form>
         First name:<input type="text" id="fname"><br>
         Last name:<input type="text" id="lname"><br>
-        <button id="btn"  value="submit">Submit</button>
+        <input type="submit" value="SUBMIT" class="in" ></input>
         
         </form>
-        <script>
-            function func(){
-                fname=document.myform.fname.value;
-                lname=document.myform.lname.value;
-                if(lname==""||fname==""){
-                    alert("Can not be emptied");
-                    return false;
-                }
-                else{
-                    return true;
-                    }
-                
-                }
-            </script>
-        
-    
 </body>
+<script src="./jquery.js"></script>
+<script src="./jq3.js"></script>
 </html>

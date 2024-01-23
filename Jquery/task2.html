@@ -4,26 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Task2</title>
-    <link rel="stylesheet" href="./style2.css"
+    <link rel="stylesheet" href="./style2.css">
 </head>
 <body>
     <div class="container">
-        <div class="box1">
-            <p class="click" onClick="show()">Click me to slide down panel!</p>
+        <div class="box">
+            <p>Click me to slide down panel</p>
         </div>
-        <div class="box2">
-            <div class="rel">
-                <p class="show">Hello world!!</p>
-            </div>
-            
+        <div class="slide">
+            <p>Hello world!</p>
         </div>
+       
     </div>
-    <script>
-        let div=document.querySelector(".box2");
-        function show(){
-            div.style.visibility="visible";
-            div.style.backgroundColor="#dfedff";
-        }
-    </script>
 </body>
+<script src="./jquery.js"></script>
+<script src="./jq2.js"></script>
 </html>

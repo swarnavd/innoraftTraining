@@ -2,7 +2,8 @@
 /* CSS Document */
 @font-face {
 	font-family: oxygen;
-	src: url(./Oxygen/Oxygen-Light.ttf);
+	src: url(./Roboto/Roboto-Light.ttf);
+	src:url(./Oxygen/Oxygen-Light.ttf);
 }
 
 *{
@@ -13,7 +14,7 @@
 	}
 	
 	body{
-		font-family:oxygen,sans-serif;
+		font-family:roboto,sans-serif;
 		font-size: 16px;
 	}
 	.padding{
@@ -24,6 +25,12 @@
     color: white;
     word-spacing: 10px;
     font-weight:100;
+	}
+	.content h1{
+		font-family: oxygen,sans-serif;
+	}
+	.para p{
+		font-family: oxygen,sans-serif;
 	}
 	
 nav{
@@ -61,19 +68,22 @@ nav{
 .binding1{
 	min-height: 900px;
 	
-    display: flex;
+    
+	}
+	.button{
+		gap: 20px;
+	}
+	.flexcenter{
+		display: flex;
     align-items: center;
     flex-wrap: wrap;
 	justify-content: center;
-	}
-	#button{
-		display: flex;
-		justify-content: center;
-		gap: 20px;
-		flex-wrap: wrap;
-	}
 
-
+	}
+	.width50{
+		width:50%;
+	}
+	
 
 	.binding2{
 		display: flex;
@@ -150,7 +160,7 @@ nav ul{
 	}
 	.bold{
 		color:rgb(58, 57, 57) ;
-		font-size: 48px;
+		
 		font-family:roboto,sans-serif;
 		font-weight: 900;
 	}
@@ -231,6 +241,7 @@ button:hover{
 	background-color:rgb(223, 223, 4);
 	border-color: rgb(223, 223, 4);
 	}
+	primar
 .page2{
 	display:flex;
 	justify-content:center;
@@ -278,6 +289,7 @@ b{
 	.heading_7{
 		color:#1a5c92;
 		font-size: 50px;
+		font-family: oxygen,sans-serif;
     
     word-spacing: 10px;
     font-weight: 100;
@@ -411,7 +423,7 @@ h1.yellow{
 .page5 button{
 	text-align: center;
 	margin-top: 20px;
-    border: 2px solid #06041d;
+    border: 2px solid ;
     color: #06041d;
 }
 .p5p{
@@ -596,31 +608,28 @@ h1.yellow{
 	font-weight: 600;
 	padding-left: 20px;
 }
-.btn4{
+.secondary-btn{
 	width: 200px;
-	text-transform: uppercase;
+    text-transform: uppercase;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     height: 40px;
-	border-width:2px;
+    border-width: 2px;
     border-color: rgb(59, 3, 55);
     background-color: transparent;
     color: rgb(43, 2, 36);
-	font-weight:800;
-	margin-top: 50px;
-	padding-left: 20px;
-	margin-bottom:30px ;
-	margin-left:20px;
+    
+    font-weight: 800;
+    margin-top: 50px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    margin-left: 20px;
 	
 }
 
-.bold{
-	font-size:60px;
-	color:rgb(29, 29, 29);
-	font-weight: 900;
-}
+
 .footer{
 	
 	
@@ -819,6 +828,9 @@ h1.yellow{
 	}
 	.logopic{
 		width:50%;
+	}
+	.width100{
+		width:100%;
 	}
 	.box6{
 		width:100%;
