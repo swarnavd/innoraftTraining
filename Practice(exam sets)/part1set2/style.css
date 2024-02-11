@@ -48,7 +48,7 @@ nav li{
 }
 nav a{
     text-decoration: none;
-    padding:10px;
+    padding:15px 30px;
     cursor: pointer;
     color: #000;
 }
@@ -57,7 +57,7 @@ nav a{
     border:1px solid #D2D2D2;
 }
 .primary{
-    padding:15px 30px;
+    width:30%;
     font-weight: 700;
     background-color: #FFD560;
     border: 1px solid #000;
@@ -73,7 +73,7 @@ nav a{
 .flex-space-between{
     display: flex;
     justify-content: space-between;
-    gap: 10px;
+    /* gap: 10px; */
 }
 .flex-align-center{
     display: flex;
@@ -82,7 +82,8 @@ nav a{
 .flex-column{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 30px;
 
 }
 .flex-justify-content-center{
@@ -132,6 +133,7 @@ nav a{
 }
 .pagination a{
     text-decoration: none;
+    padding: 15px;
     color: #000;
     font-family: WorkSans-SemiBold;
 }
@@ -164,34 +166,42 @@ nav a{
     font-family: WorkSans-SemiBold;
 }
 .mid-lower-lside{
-    width:80%;
+    width:35%;
 }
 .mid-upper-rside p{
-    font-size: 28px;
-    font-weight: 800;
+    font-size: 38px;
+    /* font-weight: 800; */
     
 }
 .mid-upper-rside{
-    width: 60%;
+    width: 42%;
     font-family: SharpGrotesk-Medium;
 }
-.mid-rside{
+.mid-upper-lside{
     width: 42%;
+}
+.mid-rside{
+    width: 35%;
     display: flex;
     flex-direction: column;
     /* justify-content: space-between; */
     gap:120px;
 }
 .mid-lower-rside p{
-    font-size:22px;
+    font-size:30px;
     font-family: SharpGrotesk-Medium;
 }
 .mid-lower-rside input{
-    padding:10px 65px 10px 30px;
+    width:90%;
+    padding:20px 65px 20px 30px;
     border: 2px solid #000;
     border-radius: 10px;
 }
 .mid-lower-rside a{
     text-decoration: none;
     color: #000;
+    padding:15px 30px;
+}
+.mid-lower-rside{
+    width:35%;
 }
