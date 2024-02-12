@@ -140,6 +140,22 @@ nav{
     
 
 }
+h1.heading::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 32px;
+    background: transparent;
+    height: 40px;
+    /* border: 2px solid black; */
+    left: calc(79% - 20px);
+    border-top-right-radius: 30px;
+    box-shadow: 6px -10px 0px 2px #043F2E;
+
+
+    
+}
 .main-box{
     /* position: relative; */
     max-width:1100px;
@@ -157,22 +173,11 @@ nav{
     border-top-left-radius: 20px;
     background-color: #c8f069;
 }
-.curve-business{
-    position: absolute;
-    top: 0;
-    left: 80%;
-    width: 32px;
-    background: transparent;
-    height: 40px;
-    /* border: 2px solid black; */
-    left: calc(79% - 20px);
-    border-top-right-radius: 30px;
-    box-shadow: 6px -10px 0px 2px #043F2E;
+/* .curve-business{
+    
 
 
-
-
-}
+} */
 .box2{
     position: absolute;
     width: 75%;
@@ -321,7 +326,7 @@ nav{
     right: 0;
     left: 50%;
     width: 40%;
-    bottom: 0;
+    bottom: 20px;
 }
 .lower-content p{
     padding-bottom: 20px;
