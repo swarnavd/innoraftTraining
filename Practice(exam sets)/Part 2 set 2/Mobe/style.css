@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/* importing font family*/
+@font-face {
+    font-family: NoticiaText-Bold;
+    src: url(./Font/NoticiaText-Bold.woff);
+}
+@font-face {
+    font-family: WorkSans-Medium;
+    src: url(./Font/WorkSans-Medium.woff);
+}
+@font-face {
+    font-family: WorkSans-Regular;
+    src: url(./Font/WorkSans-Regular.woff);
+}
+@font-face {
+    font-family: WorkSans-SemiBold;
+    src: url(./Font/WorkSans-SemiBold.woff);
+}
+/* styling container*/
+.container{
+    max-width:1240px;
+    margin:0 auto;
+}
+main{
+    background-color: #78C51C;
+}
+
+
+/* all reusable flex class designing*/
+.flex-space-between{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+
+/* section designing*/
+.hero1-content{
+    background-color: #043F2E;
+    padding: 40px;
+}
