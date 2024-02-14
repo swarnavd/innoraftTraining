@@ -22,6 +22,11 @@ body{
     max-width: 1320px;
     margin: 0 auto;
 }
+a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 0;
+}
 
 /* all reusable flex class designing*/
 .flex{
@@ -51,22 +56,35 @@ body{
     flex-direction: column;
     justify-content: center;
 }
-.contact p{
+.contact a{
+    text-decoration: none;
     font-size:20px;
     font-family:Poppins-Bold  ;
+    color: #13353f;
+    padding: 5px 0;
+}
+.contact a:hover{
+    color: #fe7525;
 }
 .opening-time p{
     color:#a89a9f;
 
 }
-.location p{
+.location a{
+    text-decoration: none;
+    padding: 5px 0;
     font-family: Poppins-Bold ;
     color: #1797b3;
 }
-.account-details p{
+.account-details a{
+    text-decoration: none;
+    padding: 5px 0;
     font-family: Poppins-Bold ;
     color: #1797b3;
 
+}
+.account-details a:hover{
+    color: #fe7525;
 }
 .end{
     display: flex;
@@ -340,6 +358,9 @@ nav a{
     width: 40%;
     margin-bottom: 30px;
     
+}
+a.check:hover{
+    color: #fe7525;
 }
 .white-lite{
     font-size:18px;
